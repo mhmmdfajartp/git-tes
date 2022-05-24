@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Square+Peg&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    font-weight: 100;
+}
+
+header img {
+    width: 50vh;
+    border-radius: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin : 50px 100px 50px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h1 {
+    font-family: Caveat;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.about h1:hover{
+    color:#3BACB6 ;
+}
+
+.about p {
+    font-size:30px ;
+}
+
+.about .sosmed li  {
+    display: inline-block;
+    list-style: none;
+}
+
+/* .about .sosmed li a svg:hover {
+    color: #3BACB6;
+} */
+
+
+.container {
+    display: flex;
+    background-color:#2F8F9D ;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px 10px;
+}
+
+.container:hover {
+    background-color: #3BACB6;
+}
+
+.container .tentang {
+    padding-bottom: 20px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: bold;
+    width: 100px;
+    padding: 0 100px 0 50px;
+}
+
+
+.container .isi {
+    padding: 20px 100px 20px;
+}
+
+.container .isi h2 {
+    padding-bottom: 10px;
+}
+.container .year {
+    font-style: italic;
+    padding: 0px 0 10px;
+}
+
+.container .foto {
+    padding: 20px 100px 20px;
+    
+}
+
+.container .foto img {
+    max-width: 460px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+.container .foto img:hover{
+    transform: scale(1.1);
+    
+}
+.container .contact {
+    padding: 20px 100px 20px;
+  
+}
+
+.container .formulir {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 20px;
+    
+
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact .box label {
+    font-size: 20px;
+}
+
+.contact .box input {
+    width: 500px;
+    height: 30px;
+    border-radius: 4px;
+    border-style: #fff;
+    padding-bottom: 10px;
+}
+.contact .box select {
+    width: 500px;
+    height: 30px;
+    border-radius: 4px;
+    border-style: #fff;
+    padding-bottom: 10px;
+}
+
+.contact .box textarea {
+    width: 500px;
+    height: px;
+    border-radius: 4px;
+    border-style: #fff;
+    padding-bottom: 40px;
+}
+
+.contact .box button {
+    background-color: rgb(68, 237, 206);
+    width: 500px;
+    height: 50px;
+    border-radius: 4px;
+    border-style: #fff;
+    margin-top: 40px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+
+.desain {
+    display: flex;
+    background-color: #005555;
+    color: #fff;
+    justify-content: center;
+    padding: 40px;
+}
